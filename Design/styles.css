@@ -1,0 +1,236 @@
+Styling for Navbar
+body{
+    /* display: block;
+    overflow-x: hidden; */
+    background-color: #f7c6c6;
+    /* animation-name: disco;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite; */
+}
+
+/* @keyframes disco {
+    from {background-color: white;}
+    to {background-color: black;}
+  } */
+  
+
+nav{
+    background-color: white;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+     color: #683aa4;
+}
+
+nav ul li a{
+    color: #a9a9a9;
+    font-size: 22px;
+    margin: auto 10px; 
+}
+
+nav ul li a:hover{
+    color: #683aa4;
+}
+
+/* Styling for Hero Section */
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #683aa4;
+    text-align: left;
+    margin-bottom: 20px;
+} 
+ 
+section p{
+    font-size: 16px;
+    font-weight: 300;
+}
+ 
+button{
+    max-width: 30%;
+    border-radius: 50px !important;
+}
+
+#hero .col{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hero .img-col{
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+ 
+#hero img{
+    max-width: 130%;
+    width: 130%;
+}
+
+/* Styling for the cards */
+#hero .card{
+    box-shadow: 11px 7px 16px #f9f9f9;
+    border: 0;
+    text-align: center;
+}
+
+ #hero .cards .card{
+    width: 18rem;
+}
+
+/* Styling for Icons if added */
+ #hero .icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the Project Section */
+#projects .projects{
+    margin-bottom: 50px;
+}
+
+/* contact section styling */
+#contact{
+    text-align: center;
+    background-color: #683aa4;
+    color: white;
+}
+
+#contact h1{
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+    
+}
+
+.loginbc {
+    height: 600px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 65px;
+    margin-left: 220px;
+    background-color: white;
+}
+
+.logo {
+    height: 120px;
+    width: 200px;
+    margin-left: 1em;
+}   
+
+.signin {
+    color: #eb7a71;
+   margin-left: 370px;
+   font-weight: bold;
+   font-size: 23px;
+   margin-top: -80px;
+}
+
+.bug {
+    height: 600px;
+    width: 550px;
+    background: linear-gradient(#f7c6c6,#fa6666);
+    z-index: 999;
+    margin: 150px;
+    margin-top: -120px;
+    margin-left: 550px;
+}
+
+.not {
+    margin-top: -540px;
+    font-size: 30px;
+    margin-left: 50px;
+    font-style: calc(bold,);
+}
+
+.yo {
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: -20px;
+}
+/* Bordered form */
+
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+.buttons {
+    background: linear-gradient(#f7c6c6,#fa6666);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }

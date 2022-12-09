@@ -1,0 +1,63 @@
+.skills {
+    position: fixed;
+    top: 0px;
+    height: 70px;
+    background-color: rgba(227, 238, 238, 0.952);
+    width: 100%;
+}
+.skills button {
+    border: none;
+    margin: 0;
+    background-color: rgba(227, 238, 238, 0.952);
+    height: 70px;
+    width: 150px;
+    font-size: 25px;
+    transition: 200ms;
+    margin-left: 10px;
+}
+/* .skills button:hover {
+    background-color: aquamarine;
+} */
+
+.navname {
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px ;
+}
+
+.home_img {
+    margin-top: 150px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px black solid;
+}
+
+.home_img {
+    margin-left: 160px;
+}
+
+.aboutus_text {
+    text-align: center;
+    margin-top: 200px;
+    border: 10px bold;
+    border-style: groove;
+    border-color: black;
+    font-size: 27px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-style: italic;
+}
+
+.company {
+    text-align: center;
+    margin-top: 150px;
+    border: 10px bold;
+    border-style: groove;
+    border-color: black;
+    font-size: 40px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: -50px;
+font-weight: bold;
+font-style: italic;
+}
